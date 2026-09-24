@@ -15,7 +15,7 @@ const router = createBrowserRouter([
       { path: "", element: <HomePage /> },
       { path: "about", element: <AboutPage /> },
 
-      // notfound - 44
+      // * ProtectedRoute
     ],
   },
   adminRoutes,
